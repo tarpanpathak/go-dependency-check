@@ -27,6 +27,4 @@ COPY --from=0 /src/${APP} /${APP}
 EXPOSE ${PORT}
 
 # TODO: Make this a variable as well
-# ENTRYPOINT ["/go-dependency-check"]
-ENV MYAPP=${APP}
-ENTRYPOINT [ "/${MYAPP}" ]
+ENTRYPOINT ["/go-dependency-check"]
