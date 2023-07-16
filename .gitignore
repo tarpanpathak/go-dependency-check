@@ -1,2 +1,8 @@
 # Mac OS files
 .DS_Store
+
+# Binary
+go-dependency-check*
+
+# Semantic Release
+.semrel/*
